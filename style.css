@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+
+  .timer {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: monospace;
+    width: 250px;
+    text-align: center;
+  }
+
+  .inner {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+  }
+
+  .frame {
+        border: 1px solid rgb(12, 255, 85);       
+        border-width:  2px;
+        border-style:  solid;
+  }
+
+  .timer span {
+    font-weight: bold;
+  }
+
+  @media  screen and  (min-width: 600px)  {
+    .timer {
+      width: 500px;
+      font-size: 1.5rem;
+    }
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .watch {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px 15px;
+    border-radius: 22px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .left {
+    left: 15px;
+  }
+
+  .right {
+    right: 15px;
+  }
+
+  
+
+
+
+
+  
+ 
+
+
+  
+
+  
+  
